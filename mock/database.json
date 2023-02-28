@@ -1,0 +1,15 @@
+{
+    "payment" : [
+        {
+            "id": 1,
+            "type" : 1, 
+            "title": "Hospedagem",
+            "description": "hospedagem hostel",
+            "price": "R$421,00",
+            "city": "Rio de janeiro",
+            "country": 31, 
+            "done": true,
+            "createdOn": "2023-10-10T03:00:00.000Z"
+        }
+    ]
+}
