@@ -15,7 +15,7 @@ export const AppRoutes = () => {
         label: 'Página inicial',
       },
     ]);
-  }, []);
+  }, [setDrawerOptions]);
 
   return (
     <Routes>
