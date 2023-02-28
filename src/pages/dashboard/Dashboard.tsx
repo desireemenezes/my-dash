@@ -1,5 +1,5 @@
 import { LayoutBaseDePagina } from '../../shared/layouts';
-import { BarraDeFerramentas } from './../../shared/components/barra-ferramentas/BarraFerramentas';
+import { BarraDeFerramentas } from '../../shared/components/ferramentas-de-listagem/FerramentasDeListagem';
 
 
 export const Dashboard = () => {
