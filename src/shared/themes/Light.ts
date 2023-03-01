@@ -1,18 +1,18 @@
 import { createTheme } from '@mui/material';
-import { cyan, yellow } from '@mui/material/colors';
+import { deepPurple, blue } from '@mui/material/colors';
 
 export const LightTheme = createTheme({
   palette: {
     primary: {
-      main: yellow[700],
-      dark: yellow[800],
-      light: yellow[500],
+      main: blue[700],
+      dark: blue[800],
+      light: blue[500],
       contrastText: '#ffffff',
     },
     secondary: {
-      main: cyan[500],
-      dark: cyan[400],
-      light: cyan[300],
+      main: deepPurple[400],
+      dark: deepPurple[500],
+      light: deepPurple[400],
       contrastText: '#ffffff',
     },
     background: {

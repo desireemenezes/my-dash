@@ -60,7 +60,7 @@ export const FerramentasDeDetalhe: React.FC<IFerramentasDeDetalheProps> = ({
     >
       {(mostrarBotaoSalvar && !mostrarBotaoSalvarCarregando) && (
         <Button
-          color='primary'
+          color='secondary'
           disableElevation
           variant='contained'
           onClick={aoClicarEmSalvar}

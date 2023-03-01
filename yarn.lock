@@ -1192,6 +1192,27 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz#c9c61d9fe5ca5ac664e1153bb0aa0eba1c6d6308"
   integrity sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==
 
+"@devexpress/dx-core@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-core/-/dx-core-4.0.3.tgz#f67f251fc94f3f98407480a71dc5833c1a8d149b"
+  integrity sha512-DW8smL7T/NzKTSOuaOR9dpJx51gE9GoS8R2vAIAMFdm0gXGfCb8yhwDbomUuSIMlZ0IxIHzHIXddwJOyQbwLLg==
+
+"@devexpress/dx-react-chart-material-ui@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-react-chart-material-ui/-/dx-react-chart-material-ui-4.0.3.tgz#b1dc47d4888607d5f3d3588fed86e74fe80e57c3"
+  integrity sha512-L5yR51lFQIcn2aUoQI0p7eOBaNQYhYh/ahkdUCQVNOcUJKTQZMXfT+KE3walv+nemnKRJVBH5dIr8tuiBIv0Iw==
+  dependencies:
+    clsx "^1.0.4"
+    prop-types "^15.7.2"
+
+"@devexpress/dx-react-core@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-react-core/-/dx-react-core-4.0.3.tgz#36ed3072ecebffd07dbf95da1043570c5160c384"
+  integrity sha512-6Brf+kIoFJrEBCWO5r6DycSMLKB5XfPaOlm+IhaE+0Y60ssPidpk87zxME1EMghMbcuuiM/3r1pku2M5pUCMVw==
+  dependencies:
+    "@devexpress/dx-core" "4.0.3"
+    prop-types "^15.7.2"
+
 "@emotion/babel-plugin@^11.10.6":
   version "11.10.6"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.10.6.tgz#a68ee4b019d661d6f37dec4b8903255766925ead"
@@ -3358,7 +3379,7 @@ cliui@^8.0.1:
     strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
-clsx@^1.2.1:
+clsx@^1.0.4, clsx@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
@@ -7893,7 +7914,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
